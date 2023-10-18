@@ -2,7 +2,7 @@ import css from './UserSocialCard.module.css'
 
 
 
-const Profile = ({ username, tag, location, avatar,stats }) => {
+const UserSocialCard = ({ username, tag, location, avatar,stats }) => {
   const {followers, views, likes} = stats
   return (
     <div className={ css.profile }>
@@ -32,4 +32,4 @@ const Profile = ({ username, tag, location, avatar,stats }) => {
 }
 
 
-export default Profile
+export default UserSocialCard

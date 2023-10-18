@@ -1,5 +1,5 @@
 
-import Profile from './first-task/UserSocialCard';
+import UserSocialCard from './first-task/UserSocialCard';
 import user from '../data/user.json';
 // ===============================================================
 
@@ -17,9 +17,10 @@ import transactions from '../data/transactions.json'
 // ================================================================
 import css from './App.module.css'
 
+
 function App() {
   return <div className={ css.container }>
-    <Profile
+    <UserSocialCard
       username={user.username}
       tag={user.tag}
       location={user.location}
